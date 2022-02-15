@@ -29,7 +29,7 @@ public class Calculator {
         
         
         JPanel p = new JPanel(new GridLayout());
-        JPanel p1 = new JPanel(new GridLayout(4,4));
+        JPanel p1 = new JPanel(new GridLayout(4,5));
         
         p.setPreferredSize(new Dimension(400, 50));
         p.add(new JTextField());
@@ -38,16 +38,20 @@ public class Calculator {
         p1.add(new JButton("8"));
         p1.add(new JButton("9"));
         p1.add(new JButton("/"));
+        p1.add(new JButton("sqrt"));
         p1.add(new JButton("4"));
         p1.add(new JButton("5"));
         p1.add(new JButton("6"));
         p1.add(new JButton("*"));
+        p1.add(new JButton("%"));
         p1.add(new JButton("1"));
         p1.add(new JButton("2"));
         p1.add(new JButton("3"));
         p1.add(new JButton("-"));
+        p1.add(new JButton("1/x"));
         p1.add(new JButton("0"));
         p1.add(new JButton("."));
+        p1.add(new JButton("C"));
         p1.add(new JButton("="));
         p1.add(new JButton("+"));
         
